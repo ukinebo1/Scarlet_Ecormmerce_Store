@@ -1,0 +1,39 @@
+.navbar {
+  padding: 40px 80px 32px 81px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar .logo {
+  width: 266px;
+  height: 38px;
+  font-family: Raleway;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38.4px;
+  color: #1e1e1e;
+}
+.navbar-menu {
+  display: flex;
+
+  gap: 56px;
+  color: #919191;
+
+  cursor: pointer;
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0.20000000298023224px;
+}
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.navbar .active {
+  padding-bottom: 2px;
+  /* border-bottom: 2px solid #d95f27; */
+  color: #d95f27;
+  cursor: pointer;
+}

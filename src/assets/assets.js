@@ -1,13 +1,14 @@
 import accessibility_new from "./accessibility_new.svg";
-import antdesign_shopping_cart from "./ant-design_shopping-cart-outlined.svg";
+import antdesign_shopping_cart from "./ant_design_shopping_cart_outlined.svg";
 import aod from "./aod.svg";
-import bx_bx from "./bx_bx-desktop";
-import clarity_mobile from "./clarity_mobile-solid";
+import bx_bx from "./bx_bx_desktop.svg";
+import clarity_mobile from "./clarity_mobile_solid.svg";
 import editor_choice from "./editor_choice.svg";
+import phone from "./Vector (2).svg"
 
 import bodyconSleeveWhite from "./bodyconSleeveWhite.png";
 import bodyWhite from "./bodyWhite.png";
-import cargoPants from "./cargoPants";
+import cargoPants from "./cargoPants.png";
 import cCutCropTop from "./cCutCropTop.png";
 import garjioPant from "./garjioPant.png";
 import halterNeck from "./halterNeck.png";
@@ -27,6 +28,7 @@ export const assets = {
   bx_bx,
   clarity_mobile,
   editor_choice,
+  phone
 };
 
 export const collection_lists = [

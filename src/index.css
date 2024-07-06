@@ -2,12 +2,13 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-}
-body{
     text-decoration: none;
 }
-:root{
-    --primary-color: #000;
-    --secondary-color: #D95F27;
-
+body{
+    min-height: 100vh;
+    
+}
+.app{
+    /* width: 80%; */
+  margin: auto;
 }

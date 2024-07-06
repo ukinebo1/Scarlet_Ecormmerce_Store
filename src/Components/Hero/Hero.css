@@ -1,0 +1,39 @@
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* align-items: center; */
+    /* align-self: center; */
+    background-image: url(../../assets/heroBg.png);
+    max-width: 100%;
+    /* width: 1440px; */
+height: 640px;
+/* top: 110px; */
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+}
+.heroContent{
+    padding-top: 270px;
+padding-bottom: 269px;
+padding-left: 80px;
+}
+.hero p{
+    font-family: Lato;
+font-size: 24px;
+font-weight: 600;
+line-height: 33.6px;
+letter-spacing: 0.20000000298023224px;
+color: #FFFFFF;
+
+}
+.hero h1{
+    font-family: Raleway;
+font-size: 72px;
+font-weight: 700;
+line-height: 100.8px;
+color: #FFFFFF;
+}
+.hero_para2{
+    font-weight: 500;
+}
