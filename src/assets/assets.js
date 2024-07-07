@@ -18,6 +18,8 @@ import sleevelessPurple from "./sleevelessPurple.png";
 import sleevelessVariety from "./sleevelessVariety.png";
 import sleveLessCropTop from "./sleveLessCropTop.png";
 import washedSkinnyJeans from "./washedSkinnyJeans.png";
+import discountBodyWhite from "./discountBodyWhite.png"
+import discountSkinnyjeans from "./discountSkinnyjeans.png"
 
 // import heroBg from './heroBg.png'
 
@@ -31,20 +33,23 @@ export const assets = {
   phone
 };
 
-export const collection_lists = [
+export const collectionNew = [
   {
+    _id: "1",
     title: "NEW IN",
     name: "BODY CONS",
     act: "Shop Now",
     image: bodyconSleeveWhite,
   },
   {
+    _id: "2",
     title: "NEW IN",
     name: "CROP TOPS",
     act: "Shop Now",
     image: bodyWhite,
   },
   {
+    _id: "3",
     title: "NEW IN",
     name: "TROUSERS",
     act: "Shop Now",
@@ -52,7 +57,7 @@ export const collection_lists = [
   },
 ];
 
-export const discount_lists = [
+export const discountLists = [
   {
     name: "Sleeveless Bodysuit",
     image: sleevelessBlue,
@@ -73,13 +78,13 @@ export const discount_lists = [
   },
   {
     name: "Sleeveless Bodycon Top",
-    image: bodyWhite,
+    image: discountBodyWhite,
     old_price: 200000,
     new_price: 139000,
   },
   {
     name: "Washed Skinny Jeans",
-    image: washedSkinnyJeans,
+    image: discountSkinnyjeans,
     old_price: 5500,
     new_price: 5000,
   },
@@ -91,7 +96,7 @@ export const discount_lists = [
   },
 ];
 
-export const featured_lists = [
+export const featuredLists = [
   {
     name: "C-Cut Crop top",
     image: cCutCropTop,
@@ -118,13 +123,13 @@ export const featured_lists = [
   },
   {
     name: "Sleeveless Bodycon Top",
-    image: bodyWhite,
+    image: discountBodyWhite,
     old_price: "",
     new_price: 4000,
   },
   {
     name: "Washed Skinny Jeans",
-    image: washedSkinnyJeans,
+    image: discountSkinnyjeans,
     old_price: 5500,
     new_price: 5000,
   },

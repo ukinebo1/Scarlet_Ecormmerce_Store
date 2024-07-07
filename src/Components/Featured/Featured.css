@@ -1,0 +1,72 @@
+.discountContainer{
+    margin: 72px 80px 0px 80px;
+}
+.discountContainer h2{
+font-family: Raleway;
+font-size: 40px;
+font-weight: 700;
+line-height: 44px;
+}
+.discount-item{
+    width: 100%;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px #00000015;
+    transition: 0.3s;
+    animation: fadeIn 1s;
+}
+.discount-display-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 30px;
+    gap: 40px;
+    /* row-gap: 50px; */
+}
+.discount-img-Wrapper{
+    max-width: 100%;
+    /* width: 400px;
+    height: 380px; */
+    border-radius: 10px;
+}
+.discount-img-Wrapper img{
+    width: 100%;
+}
+.discountContent{
+    padding: 16px;
+}
+.discount-name{
+font-family: Raleway;
+font-size: 24px;
+font-weight: 700;
+line-height: 28.8px;
+}
+.discount-old-price{
+font-family: Lato;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.20000000298023224px;
+text-decoration: line-through;
+}
+.price-add{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.discount-price{
+    font-family: Inter;
+font-size: 24px;
+font-weight: 600;
+line-height: 28.8px;
+}
+.price-add button{
+padding: 8px 12px;
+background-color: #D95F27;
+color: #fff;
+border: 1px solid #D95F27;
+border-radius: 5px;
+font-family: Lato;
+font-size: 16px;
+font-weight: 700;
+}
